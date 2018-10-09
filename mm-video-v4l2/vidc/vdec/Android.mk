@@ -140,6 +140,8 @@ LOCAL_HEADER_LIBRARIES := \
 LOCAL_C_INCLUDES                += $(libmm-vdec-inc)
 LOCAL_ADDITIONAL_DEPENDENCIES   := $(libmm-vdec-add-dep)
 
+LOCAL_HEADER_LIBRARIES  := generated_kernel_headers
+
 LOCAL_PRELINK_MODULE    := false
 LOCAL_SHARED_LIBRARIES  := liblog libcutils libdl libqdutils
 
@@ -178,6 +180,8 @@ LOCAL_HEADER_LIBRARIES := \
 
 LOCAL_C_INCLUDES              += $(libmm-vdec-inc)
 LOCAL_ADDITIONAL_DEPENDENCIES := $(libmm-vdec-add-dep)
+
+LOCAL_HEADER_LIBRARIES  := generated_kernel_headers
 
 LOCAL_PRELINK_MODULE          := false
 LOCAL_SHARED_LIBRARIES        := liblog libcutils

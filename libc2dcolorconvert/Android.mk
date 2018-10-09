@@ -14,6 +14,8 @@ LOCAL_HEADER_LIBRARIES := \
         libutils_headers \
         libhardware_headers
 
+LOCAL_HEADER_LIBRARIES := generated_kernel_headers
+
 LOCAL_SHARED_LIBRARIES := liblog libdl
 
 LOCAL_MODULE_TAGS := optional
