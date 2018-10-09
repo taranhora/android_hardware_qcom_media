@@ -148,6 +148,8 @@ LOCAL_HEADER_LIBRARIES := \
 LOCAL_C_INCLUDES                := $(libmm-venc-inc)
 LOCAL_ADDITIONAL_DEPENDENCIES   := $(libmm-venc-add-dep)
 
+LOCAL_HEADER_LIBRARIES  := generated_kernel_headers
+
 LOCAL_PRELINK_MODULE      := false
 LOCAL_SHARED_LIBRARIES    := liblog libcutils libdl
 
@@ -187,6 +189,8 @@ LOCAL_HEADER_LIBRARIES := \
 
 LOCAL_C_INCLUDES                := $(libmm-venc-inc)
 LOCAL_ADDITIONAL_DEPENDENCIES   := $(libmm-venc-add-dep)
+
+LOCAL_HEADER_LIBRARIES  := generated_kernel_headers
 
 LOCAL_PRELINK_MODULE      := false
 LOCAL_SHARED_LIBRARIES    := liblog libcutils libdl
